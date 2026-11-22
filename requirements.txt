@@ -1,9 +1,3 @@
 Flask
 gunicorn
-numpy
-pandas
-scikit-learn
-joblib
-yfinance
-requests
-matplotlib
+
