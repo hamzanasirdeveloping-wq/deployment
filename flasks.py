@@ -17,7 +17,12 @@ def predict():
     return jsonify({
         "predicted_score": float(result[0])
     })
-
+@app.route("/")
+def home():
+    return """
+    <h1>welcome to my ai predictor!</h1>
+    <p>your application is running successfully.</p>
+    """
 if __name__ == "__main__":
     import os
     app.run(
